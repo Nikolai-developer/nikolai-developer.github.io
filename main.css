@@ -1,0 +1,171 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+hr {
+    border: 10px solid;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+}
+
+a {
+    color: #000000;
+    font-size: 24px;
+}
+
+a:hover {
+    color: #F11717;
+    text-decoration: none;
+}
+
+.programmer {
+    margin-top: 195px;
+    z-index: 2;
+}
+
+.offer {
+    top: 167px;
+    font-size: 64px;
+    font-weight: 400;
+    position: absolute;
+    z-index: 1;
+    left:720px;
+}
+
+.message {
+    margin-top: 330px;
+}
+
+.about_me {
+    margin-top: 103px;
+}
+
+.about_me hr{
+    border-color:  #FFDE0C;
+}
+
+.title-1 {
+    text-align: center;
+}
+
+.information {
+    font-size: 48px;
+    margin-left: 104px;
+    margin-top: 64px;
+}
+
+.languages {
+    margin-top: 190px;
+    margin-left: 100px;
+}
+
+.my_work {
+    text-align: center;
+}
+
+.my-work hr{
+    border-color: #ffffff;
+}
+
+.first_part {
+    padding-top: 240px;
+    background-image: url('images/Rectangle\ my\ work.png');
+}
+
+.second_part {
+    background-color: #FFDE0C;
+    padding-top: 39px;
+}
+
+
+
+.comming_soon {
+    background-color: #C4C4C4;
+    width: 516px;
+    height: 684px;
+    border: 29px solid #ffffff;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+} 
+
+.comming_soon_text {
+    padding-top: 151px;
+    padding-left: 139px;
+}
+
+.a2008 {
+    border: 29px solid #ffffff;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+    border-bottom-width: 71px;
+    width: 516px;
+    height: 684px;
+    overflow-x: scroll;
+    float: right;
+}
+
+.link {
+    position: absolute;
+    margin-top: 625px;
+    margin-left: 50%;
+}
+
+.footer {
+    background-color: #FFDE0C;
+    padding-top: 32px;
+}
+
+.footer h1{
+    text-align: center;
+}
+
+.black {
+    background-image: url('images/Rectangle\ 7.png');
+    background-position-y: 80%;
+}
+
+.telegram {
+    margin-top: 87px;
+}
+
+.button {
+    margin-top: 284px;
+    border: 1px solid #FFDE0C;
+    background-color: #FFDE0C;
+    font-size: 64px;
+    padding: 35px;
+    max-width: 500px;
+    border-radius:21px;
+    -webkit-border-radius:21px;
+    -moz-border-radius:21px;
+    -ms-border-radius:21px;
+    -o-border-radius:21px;
+}
+
+@media screen and (max-width:1316px){
+    .offer {
+        font-size:48px;
+    }
+
+    
+}
