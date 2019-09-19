@@ -32,9 +32,11 @@ a:hover {
     text-decoration: none;
 }
 
-.programmer {
-    margin-top: 195px;
-    z-index: 2;
+.header {
+    background-image: url('images/Programmist.png');
+    background-repeat: no-repeat;
+    background-position-y: 198px;
+    padding-bottom: 250px;
 }
 
 .offer {
@@ -48,10 +50,7 @@ a:hover {
 
 .message {
     margin-top: 330px;
-}
-
-.about_me {
-    margin-top: 103px;
+    float: right;
 }
 
 .about_me hr{
@@ -98,6 +97,8 @@ a:hover {
     width: 516px;
     height: 684px;
     border: 29px solid #ffffff;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 21px;
     -webkit-border-radius: 21px;
     -moz-border-radius: 21px;
@@ -162,10 +163,167 @@ a:hover {
     -o-border-radius:21px;
 }
 
+.second_part{
+    padding-bottom: 50px;
+}
+
 @media screen and (max-width:1316px){
     .offer {
         font-size:48px;
+        top: 200px;
+    }
+}
+
+@media screen and (max-width:1224px){
+    .information{
+        font-size: 36px;
     }
 
-    
+    .languages{
+        margin-left: 0;
+        margin-top: 100px;
+    }
+
+    .first_part{
+        padding-top:10px;
+        margin-top: 100px;
+        background-image: none;
+        background: linear-gradient(#ffffff,#FFDE0C);
+    }
+
+    .offer{
+        top: 120px;
+        left:500px;
+    }
+
+    .message{
+        margin-top: 240px;
+    }
+
+    .header{
+        padding-bottom: 450px;
+    }
+}
+
+@media screen and (max-width:1066px){
+    .languages {
+        width: 350px;
+    }
+
+    .none {
+        padding-left: 0px;
+        padding-right: 7px;
+    }
+
+    .none_2 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:960px){
+    .a2008, .comming_soon{
+        margin-left: 25%;
+        float: left;
+    }
+
+    .comming_soon{
+        margin-top: 80px;
+    }
+
+    .information{
+        margin-left: 50px;
+    }
+
+    .black {
+        background-color: #000000;
+        background-image: none;
+    }
+
+    .telegram {
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        margin-top: 60px;
+        font-size: 36px;
+        padding: 5px;
+        max-width: 250px;
+    }
+
+    .link {
+        margin-left: 45%;
+    }
+}
+
+@media screen and (max-width:866px){
+    .languages{
+        width: 300px;
+    }
+
+    .information{
+        margin-left: 0px;
+    }
+
+    .offer {
+        left: 300px;
+    }
+
+    .a2008 ,.comming_soon{
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .information {
+        font-size: 30px;
+    }
+
+    .languages {
+        width: 240px;
+    }
+
+    .header {
+        background-image: url('images/Programmist\ 2.png');
+        background-position-x: -20%;
+        background-position-y: 90%;
+        padding-bottom: 300px;
+    }
+
+    .offer {
+        left: 240px;
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .offer {
+        left: 20%;
+    }
+
+    .languages{
+        width: 200px;
+    }
+
+    .information{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:615px){
+    .a2008 ,.comming_soon{
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width:575px){
+    h1{
+        font-size: 30px;
+    }
+
+    .a2008, .comming_soon{
+        margin-left:0px;
+    }
 }
