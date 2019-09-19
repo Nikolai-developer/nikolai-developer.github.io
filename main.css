@@ -323,7 +323,57 @@ a:hover {
         font-size: 30px;
     }
 
+    .header{
+        background-image: url('images/Programmist\ 3.png');
+        background-position-y: 50px;
+        background-size: 100%;
+        padding-bottom: 0px;
+    }
+
+    .offer{
+        display: none;
+    }
+
+    .offer_2{
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .rocket {
+        margin-top: 400px;
+        left: 0px;
+    }
+
+    .axis:hover .move-up {
+        transform: translate(0,-350px);
+        -webkit-transform: translate(0,-350px);
+        -o-transform: translate(0,-350px);
+        -moz-transform: translate(0,-350px);
+        -ms-transform: translate(0,-350px);
+}
+
+    .object {
+        transition: all 5s ease-in-out;
+        -webkit-transition: all 5s ease-in-out;
+        /**Chrome&Safari**/-moz-transition: all 2s ease-in-out;
+        /**Firefox**/-o-transition: all 2s ease-in-out;
+        /**Opera**/:;
+        -moz-transition: all 5s ease-in-out;
+        -ms-transition: all 5s ease-in-out;
+        -o-transition: all 5s ease-in-out;
+}
+
     .a2008, .comming_soon{
         margin-left:0px;
+    }
+
+    .telegram{
+        margin-left: 0px;
+    }
+
+    .message{
+        position: relative;
+        margin-top: 0px;
+        float: right;
     }
 }
