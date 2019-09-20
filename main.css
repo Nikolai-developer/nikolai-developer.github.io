@@ -361,10 +361,10 @@ a:hover {
         background-color: #FFDE0C;
         border: 1px solid #FFDE0C;
         border-radius: 21px;
-        -webkit-border-radius:;
-        -moz-border-radius:;
-        -ms-border-radius:;
-        -o-border-radius:;
+        -webkit-border-radius:21px;
+        -moz-border-radius:21px;
+        -ms-border-radius:21px;
+        -o-border-radius:21px;
     }
 }
 
