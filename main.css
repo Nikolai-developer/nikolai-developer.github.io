@@ -192,12 +192,14 @@ a:hover {
     }
 
     .offer{
-        top: 120px;
-        left:500px;
+        width: max-content;
+        left: 0px;
+        margin-left: 50%;
+        top: 100px
     }
 
     .message{
-        margin-top: 140px;
+        margin-top: 220px;
     }
 
     .header{
@@ -256,6 +258,16 @@ a:hover {
     .link {
         margin-left: 45%;
     }
+
+    .offer{
+        left: 0px;
+    }
+}
+
+@media screen and (max-width:900){
+    .offer{
+        margin-left: 50px;
+    }
 }
 
 @media screen and (max-width:866px){
@@ -268,7 +280,7 @@ a:hover {
     }
 
     .offer {
-        left: 300px;
+        left: 0px;
     }
 
     .a2008 ,.comming_soon{
@@ -301,7 +313,7 @@ a:hover {
     }
 
     .offer {
-        left: 240px;
+        left: 0px;
         font-size: 44px;
     }
 }
@@ -396,6 +408,10 @@ a:hover {
     .second_part{
         padding-bottom: 0px;
     }
+
+    .message{
+        display: none;
+    }
 }
 
 @media screen and (max-width:516px){
@@ -431,7 +447,8 @@ a:hover {
     .button_work{
         font-size: 16px;
         width: 10rem;
-        float: right;    
+        float: right; 
+        margin-top: 5px;   
     }
 
     .offer_2{
@@ -443,6 +460,10 @@ a:hover {
         margin-bottom: 0px;
         margin-top: 8px;
     }
+
+    .no_padding_rigth{
+        padding-right: 0px;
+    }
 }
 
 
@@ -450,11 +471,13 @@ a:hover {
     animation-name: slideUp;
     -webkit-animation-name: slideUp;    
  
-    animation-duration: 12s; 
-    -webkit-animation-duration: 12s;
+    animation-duration: 5s; 
+    -webkit-animation-duration: 5s;
  
     animation-timing-function: ease;    
     -webkit-animation-timing-function: ease;
+
+    animation-iteration-count: infinite;
  
     visibility: visible !important;         
 }
@@ -469,12 +492,12 @@ a:hover {
     }
 
     50% {
-        transform: translateY(-190px);
-        -webkit-transform: translateY(-190px);
-        -moz-transform: translateY(-190px);
-        -ms-transform: translateY(-190px);
-        -o-transform: translateY(-190px);
-    }
+        transform: translateY(-150px);
+        -webkit-transform: translateY(-150px);
+        -moz-transform: translateY(-150px);
+        -ms-transform: translateY(-150px);
+        -o-transform: translateY(-150px);
+}
 
     100% {
         transform: translateY(0px)    ;
