@@ -509,7 +509,15 @@ a:hover {
 @media screen and (max-width: 360px) {
   .a2008_img {
     width: 120px;
-    height: 95px;
+    height: 69px;
+  }
+
+  .button_work p{
+      font-size: 16px;
+  }
+
+  .button_work {
+      margin-top: 17px;
   }
 }
 
