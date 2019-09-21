@@ -203,7 +203,7 @@ a:hover {
     }
 
     .header{
-        padding-bottom: 250px;
+        padding-bottom: 450px;
     }
 }
 
@@ -260,13 +260,13 @@ a:hover {
     }
 
     .offer{
-        left: 0px;
+        left: -200px;
     }
 }
 
 @media screen and (max-width:900){
     .offer{
-        margin-left: 50px;
+        left:-200px;
     }
 }
 
@@ -280,19 +280,11 @@ a:hover {
     }
 
     .offer {
-        left: 0px;
+        left: -200px;
     }
 
     .a2008 ,.comming_soon{
         margin-left: 15%;
-    }
-
-    .message{
-        margin-top: 300px;
-    }
-
-    .header{
-        padding-bottom: 0px;
     }
 }
 
@@ -313,15 +305,12 @@ a:hover {
     }
 
     .offer {
-        left: 0px;
+        left: -200px;
         font-size: 44px;
     }
 }
 
 @media screen and (max-width:650px){
-    .offer {
-        left: 20%;
-    }
 
     .languages{
         width: 200px;
@@ -463,6 +452,56 @@ a:hover {
 
     .no_padding_rigth{
         padding-right: 0px;
+    }
+}
+
+@media screen and (min-width:375px){
+    .information_2{
+        display: none;
+    }
+
+    .languages_2{
+        display: none;
+    }
+
+    .telegram_p_2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:375px){
+    .information{
+        display: none;
+    }
+
+    .languages{
+        display: none;
+    }
+
+    .information_2{
+        font-size: 24px;
+        margin-top: 40px;
+    }
+
+    .languages_2{
+        width:300px;
+    }
+
+    .languages_2_p{
+        text-align: center;
+    }
+
+    .first_part{
+        margin-top: 50px;
+    }
+
+    .telegram_p{
+        display: none;
+    }
+
+    .button{
+        margin-top: 25px;
+        float: left;
     }
 }
 
