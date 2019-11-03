@@ -456,7 +456,7 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 376px) {
   .information_2 {
     display: none;
   }
